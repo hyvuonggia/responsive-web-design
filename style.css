@@ -1,0 +1,40 @@
+/* section {
+  padding-top: 10%;
+} */
+
+html {
+  scroll-padding-top: 100px;
+}
+
+/* Navbar */
+.nav-link {
+  color: grey;
+}
+
+
+/* Banner */
+.banner-image {
+    background-image: url("./assets/img/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.service-img {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #service-1{
+    background-image: url("../assets/img/services/1.jpg");
+  }
+  #service-2{
+    background-image: url("../assets/img/services/2.jpg");
+  }
+  #service-3{
+    background-image: url("../assets/img/services/3.jpg");
+  }
+  
+  .wrap {
+    margin: 30px;
+  }
