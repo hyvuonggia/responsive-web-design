@@ -8,3 +8,11 @@ window.addEventListener('scroll', function () {
         nav.classList.remove('bg-dark', 'shadow');
     }
 });
+
+// parallax scrolling for banner image
+const parallax = document.getElementsByClassName("banner-image");
+
+window.addEventListener("scroll", function () {
+    let offset = window.pageYOffset;
+    parallax[0].style.backgroundPositionY = offset * 0.6 + "%"
+})

@@ -1,9 +1,18 @@
-/* section {
-  padding-top: 10%;
-} */
+section {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 html {
-  scroll-padding-top: 100px;
+  scroll-padding-top: 70px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+section:nth-last-of-type(2n){
+  background-color: white;
 }
 
 /* Navbar */
@@ -17,6 +26,7 @@ html {
     background-image: url("./assets/img/header-bg.jpg");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .service-img {
@@ -37,4 +47,71 @@ html {
   
   .wrap {
     margin: 30px;
+  }
+
+  
+
+  /* About */
+ 
+  .profile-img {
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/img/profile/1.jpg");
+
+  }
+
+  .profile-content {
+    padding-left: 50px;
+  }
+ 
+
+  /* Contact */
+  .contact {
+    background: url("../assets/img/contact/1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+
+  #contact{
+    background: url("../assets/img/contact/1.jpg");
+    
+  }
+
+  .contact-head{
+    color: white;
+  }
+
+  .head {
+    background-color: mediumturquoise;
+    border-radius: 10px;
+    margin-top: -40px;
+    box-shadow: -1px 9px 27px -8px rgb(88, 179, 190);
+  }
+
+  .effect-1 {
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .effect-1:focus{
+    border-bottom: 2px solid mediumturquoise;
+  }
+
+
+  .btn1 {
+    background-color: mediumturquoise;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+  }
+
+  .btn1:hover {
+    box-shadow: -1px 9px 27px -8px rgb(88, 179, 190);
   }

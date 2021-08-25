@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="bg-light bg-gradient">
+<body>
 
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
@@ -35,13 +35,13 @@
                         <a class="nav-link text-white js-scroll-trigger" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white js-scroll-trigger" href="#">Portfolio</a>
+                        <a class="nav-link text-white js-scroll-trigger" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white js-scroll-trigger" href="#">Team</a>
+                        <a class="nav-link text-white js-scroll-trigger" href="#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white js-scroll-trigger" href="#">Contact</a>
+                        <a class="nav-link text-white js-scroll-trigger" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -56,24 +56,76 @@
     </div>
 
     <!-- About -->
-    <section class="page-section mt-5" id="about">
+    <section class="page-section" id="about">
         <div class="container">
-            <div class="text-center mb-3">
+            <div class="text-center mb-5">
                 <h2 class="section-heading text-uppercase">About</h2>
                 <p class="lead">
                     This is a lead paragraph. It stands out from regular paragraphs.
                 </p>
             </div>
-            <div>
+            <div class="container pb-4">
+                <div class="row">
+                    <div class="profile-img col-md-3"></div>
+                    <div class="profile-content col-md-9">
+                        <div class="row">
+                            <p>Hi, I'am Gia Hy, Vuong. I have been studying in University Of Debrecen for 3 years. My
+                                major is working with data at the back-end side and also a bit of knowledge about
+                                front-end design.
+                            </p>
+                            <p>
+                                In my free-time, I usually doing some problem solving exercises on LeetCode and
+                                searching
+                                for new technologies on Youtube.
+                            </p>
+                            <div class="col-md-6">
+                                <table>
+                                    <tr>
+                                        <th class="pe-3">Birthday:</th>
+                                        <td>May 15<sup>th</sup> 2000</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Phone:</th>
+                                        <td>+36 70 217 9334</td>
+                                    </tr>
+                                    <tr>
+                                        <th>City:</th>
+                                        <td>Hochiminh city, Vietnam</td>
+                                    </tr>
+                                </table>
 
+                            </div>
+                            <div class="col-md-6">
+                                <table>
+                                    <tr>
+                                        <th>Age:</th>
+                                        <td>21</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="pe-3">Degree:</th>
+                                        <td>Bachelor</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email:</th>
+                                        <td>hyvuonggia@gmail.com</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <p class="mt-3">
+                            I also have great passion in cooking, especially Vietnamese cuisine. I also go swimming in
+                            the weekend because it's very hot in my country.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Service -->
-    <section class="page-section mt-5" id="services">
+    <section class="page-section " id="services">
         <div class="container-fluid">
-            <div class="text-center mb-3">
+            <div class="text-center mb-5">
                 <h2 class="section-heading text-uppercase">Services</h2>
                 <p class="lead">
                     This is a lead paragraph. It stands out from regular paragraphs.
@@ -115,6 +167,107 @@
         </div>
     </section>
 
+    <!-- Portfolio -->
+    <section class="page-section" id="portfolio">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <p class="lead">
+                    This is a lead paragraph. It stands out from regular paragraphs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="page-section" id="team">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-heading text-uppercase">Team</h2>
+                <p class="lead">
+                    This is a lead paragraph. It stands out from regular paragraphs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="contact-head section-heading text-uppercase">Contact</h2>
+                <p class="contact-head lead">
+                    This is a lead paragraph. It stands out from regular paragraphs.
+                </p>
+            </div>
+            <form action="">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="head text-center text-white py-3">
+                                            <h3>Contact Us</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form p-3">
+                                    <div class="row form-row my-5">
+                                        <div class="col-6">
+                                            <input type="text" class="effect-1" placeholder="First Name*"
+                                                required="required"
+                                                data-validation-required-message="Please enter your first name.">
+                                            <p class="help-block text-danger"></p>
+
+                                        </div>
+                                        <div class="col-6">
+                                            <input type="text" class="effect-1" placeholder="Last Name*"
+                                                required="required"
+                                                data-validation-required-message="Please enter your last name.">
+                                            <p class="help-block text-danger"></p>
+
+                                        </div>
+                                    </div>
+                                    <div class="row form-row pb-4">
+                                        <div class="col-lg-12">
+                                            <input type="email" class="effect-1" placeholder="Email Address*"
+                                                required="required"
+                                                data-validation-required-message="Please enter your email.">
+                                            <p class="help-block text-danger"></p>
+
+                                        </div>
+                                    </div>
+                                    <div class="row form-row pt-5">
+                                        <div class="col-lg-12">
+                                            <input type="text" class="effect-1" placeholder="Your Message*"
+                                                required="required"
+                                                data-validation-required-message="Please enter your message.">
+                                            <p class="help-block text-danger"></p>
+
+                                        </div>
+                                    </div>
+                                    <div class="row form-row pt-4">
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                I'm not a robot
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 justify-content-center align-items-center d-flex">
+                                        <button class="btn1" type="submit">SUBMIT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
