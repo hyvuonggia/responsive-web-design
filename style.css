@@ -1,6 +1,14 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 section {
   padding-top: 5%;
   padding-bottom: 5%;
+}
+
+.section-heading {
+  letter-spacing: 3px;
 }
 
 html {
@@ -19,10 +27,16 @@ p, th, td {
   font-size: 125%;
 }
 
+.page-section h2 {
+  font-size: 3rem;
+}
+
 /* Navbar */
 .nav-link {
   color: grey;
 }
+
+
 
 /* Banner */
 .banner-image {
@@ -32,6 +46,8 @@ p, th, td {
     background-attachment: fixed;
 }
 
+
+/* Service */
 .service-img {
     height: 50vh;
     background-position: center;
@@ -52,6 +68,13 @@ p, th, td {
     margin: 30px;
   }
 
+  @media only screen and (max-width: 768px){
+    #services .row {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+  }
 
   /* About */
  
@@ -121,20 +144,6 @@ h1 {
 }
 
 
-/* MEDIA */
-
-@media only screen and (min-width: 1200px) {
-    .img-hover-zoom--colorize img {
-        width: 200px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .h1,
-    h1 {
-        font-size: 2rem;
-    }
-}
  
 
   /* Contact */
@@ -243,8 +252,13 @@ h1 {
     transition: 0.3s;
   }
 
-
   .item .fa {
     font-size: 80px;
   }
   
+  .portfolio-modal img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+  }
